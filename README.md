@@ -25,4 +25,9 @@ This is the starter project for the fullstack tutorial with Next.js and Prisma. 
 - npm i @prisma/client
 - Generate a client based on the project schema: npx prisma generate
 - Create a script file to ensure the use of a single instance of client: mkdir lib && touch lib/prisma.ts
--
+
+## Using Next-Auth
+
+- Installation error solution:
+  - npm install next-auth@4.1.2
+  - npm install --legacy-peer-deps @next-auth/prisma-adapter
